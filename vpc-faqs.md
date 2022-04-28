@@ -153,7 +153,7 @@ Currently you can create 200 subnets per VPC. If you would like to create more, 
 
 **Q. Is there a limit on how large or small a subnet can be?**
 
-The minimum size of a subnet is a /28 \(or 14 IP addresses.\) for IPv4. Subnets cannot be larger than the VPC in which they are created.
+The minimum size of a subnet is a /28 \(or 16 IP addresses.\) for IPv4. Subnets cannot be larger than the VPC in which they are created.
 
 For IPv6, the subnet size is fixed to be a /64. Only one IPv6 CIDR block can be allocated to a subnet.
 
